@@ -1,0 +1,42 @@
+* {box-sizing: border-box}
+body{
+  background-image: url("https://loveincorporated.blob.core.windows.net/contentimages/main/af0c4cff-ff1a-4fe0-9d7d-c8f7d13c16ae-leaving-money-to-charity-shutterstock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5px;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  position: fixed
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+form{
+ 
+  padding-left: 600px; 
+}
+pre{
+  font-size: 35px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding: 100px;
+  color:blue;
+  
+}
